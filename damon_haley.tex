@@ -1,0 +1,386 @@
+%% start of file `damon_haley_2014.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{casual}                        % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                          % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+% \renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+% \nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+% \usepackage[utf8]{inputenc}                  % if you are not using xelatexou lualatex, replace by the encoding you are using
+% \usepackage{CJKutf8}                         % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+% \setlength{\hintscolumnwidth}{3cm}           % if you want to change the width of the column with the dates
+% \setlength{\maketitlenamewidth}{10cm}        % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\firstname{Damon}
+\familyname{Haley}
+\title{DEVOPS/WEB DEVELOPER}               % optional, remove the line if not wanted
+\address{116 Gold Hill Drive}{Lafayette, CO 80026}    % optional, remove the line if not wanted
+\mobile{+1~(720)~291~9239}                    % optional, remove the line if not wanted
+\phone{+1~(303)~938~1458}                      % optional, remove the line if not wanted
+\email{resume@dhaley.warpmail.net}                          % optional, remove the line if not wanted
+\homepage{www.linkedin.com/in/damonhaley}                    % optional, remove the line if not wanted
+% \extrainfo{additional information}            % optional, remove the line if not wanted
+\photo[64pt][0.4pt]{madmen_icon}                  % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
+\quote{More than 14 years experience in Unix infrastructure engineering and
+  web based application development in a hi-availability environment.
+  Exceptional communication skills relating technology to business
+  functionality.}
+% add general it stratagist to resume
+% Effective liaison between departments, customers and public officials.
+% optional, remove the line if not wanted
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+% \makeatletter
+% \@beginparpenalty=10000
+% \renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+% \newcommand\mynobreakpar{\par\nobreak\@afterheading}
+% \makeatother
+% bibliography with mutiple entries
+% \usepackage{multibib}
+% \newcites{book,misc}{{Books},{Others}}
+% ----------------------------------------------------------------------------------
+% content
+% ----------------------------------------------------------------------------------
+\begin{document}
+% \begin{CJK*}{UTF8}{gbsn}                     % to typeset your resume in Chinese using CJK
+%   -----       resume       ---------------------------------------------------------
+\makecvtitle
+% \rule{\hintscolumnwidth}{1ex}
+\cvlistitem{Full-stack web developer}
+\cvlistitem{Small to enterprise-scale host and DevOps tool architecture and deployment}
+\cvlistitem{Experience with continuous integration, MVC/ORM frameworks, and OO design}
+\cvlistitem{Expert analytical mind scaling technology and processes to meet business needs}
+% , automation and code
+%   refactoring}
+% software development process A software development process, also known as a software development life-cycle (SDLC), i
+% \cvlistitem{Outliners, and mind map enthusiest .}
+% \cvlistitem{Autmation, ides, productivity hacking.}
+% Foss
+% \cvlistitem{Web 2.0, FOSS and Drupal module development.}
+% \cvlistitem{Small to enterprise-scale intranet and extranet Unix platform architecture.}
+% \cvlistitem{Virtualization, cloud computing, and software as a service.}
+% \cvlistitem{Intrinsic understanding of how technologies fit into the existing enterprise
+% ecosystem.}
+% \cvlistitem{Ability to explain the trade-offs or return on investment of a
+% feature, or the person who can help their coworkers understand the internal
+% workings of systems.}
+% \cvlistitem{Adept with personal learning networks and social networks}
+% wrote JQuery to add GA cross-domain tracking cookies
+% use Drupal devel, Codesniffer
+% experience in MAMP/LAMP
+% Agile Scrum retrospectives,
+% Drupal multisite and dslm
+
+\section{Experience}
+% \subsection{Information Technology}
+\cventry{2010--Present}{Web Application Developer}{University of
+  Colorado}{Boulder, CO}{}{%\newline
+  Strategic Relations/Office of the Vice Chancellor for Research:
+  \begin{itemize}%
+  \item 2011 - 2014 Drupal application development
+    \begin{itemize}%
+    \item Lead dev on 5+ custom Drupal sites inc. the \href{http://coloradoshakes.org}{Colorado Shakespeare Festival (CSF)}.
+      \begin{itemize}%
+      \item CSF Site in prod one week after 1st client demo meeting critical ticket sales deadline.
+        \begin{itemize}%
+        \item Programmatically created 80 percent of content form legacy site using migrate module allowing for theming, bug fixes and design refactoring to happen ASAP.
+        \end{itemize}
+      \end{itemize}
+    \item Wrote custom modules/drush extensions in popular campus installation profile.
+      \begin{itemize}%
+      \item This profile was used to launch hundreds of full-featured campus departmental sites.
+      \end{itemize}
+    \item Adept at Drupal migrate, behat, Search API, bulk mail, [open]ssl/LDAP, entity relations, field-based access control, CTools Page Manager, Views, VBO, Relation, Entity Relation, Content Access, Panels, Features, Secure\_pages, PathAuto, etc.
+    \item Maintained development/live environments, including git
+      tracked features deployed with Jenkins including blackbox/JavaScript
+      enabled behat test features.
+      \begin{itemize}%
+      \item  By implementing continuous integration tool-sets I was able to lessen technical debt, making turn-around to the client faster and less risky.
+      \end{itemize}
+    \end{itemize}
+\item 2010 - 2012 Php and JavaScript development
+  \begin{itemize}%
+  \item Crafted and maintained contest management administration
+    system that dynamically generates contest web applications
+    enabling over 15 annual University funding contests, conference,
+    administrative tracking and collaborative web sites.
+    \begin{itemize}%
+    \item Homegrown content management systems supported
+      cross-departmental contests and collaborative sites and
+      features such as aggregate reporting target-driven email.
+    \end{itemize}
+  \item Wrote custom php and perl scripts for database-driven
+    mail-merge projects, data massage, interactive polls and
+    ad-hock reports and provided technical support.
+    \begin{itemize}%
+    \item Programming work assisted department personnel in email marketing
+      campaigns and polls and provided critical data for accounting and administrative purposes.
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+}
+
+% \cventry{2010--Present}{Web Application Developer (cont.)}{}{}{}{% \newline{}%
+%   \begin{itemize}%
+%   \item 2010 - 2012 Infrastructure and configuration management
+%     \begin{itemize}%
+%     \item Migrated legacy LAMP applications to secure, stable enterprise production environment.
+%       \begin{itemize}%
+%       \item Applications are no longer host dependent and can be deployed to the cloud.
+%       \end{itemize}
+%     \item Applied Drupal patches and developed and
+%       maintained php release scripts utilizing rsync and scp.  Implemented dns aliases, virtual ips for dev and test environments.
+%       \begin{itemize}%
+%       \item Developed reliable processes for configuration management
+%         host admin needs.
+%       \end{itemize}
+%     \end{itemize}
+%   \item 2011-2012 Managing part-time and freelance grad student workers
+%     \begin{itemize}%
+%     \item Interviewed and trained computer science grad
+%       student for freelance php work. Oversaw code reviews
+%       and made recommendations on technical solutions.
+%       \begin{itemize}%
+%       \item Utilized grad student on two software systems for Jquery
+%         tasks in project backlogs.
+%       \end{itemize}
+%     \item Agile software development life cycle (SDLC)
+%       \begin{itemize}%
+%       \item Published user story backlogs for all projects at dashboard.colorado.edu
+%       \item Adopted Scrum over XP process for software delivery
+%       \end{itemize}
+%     \end{itemize}
+%   \end{itemize}
+% }
+\cventry{2005-2010}{Data Center Analyst}{HP Enterprise
+  Services}{Broomfield, CO}{}{Work for Oracle, Sun Microsystems, StorageTek (client accounts):% \newline{}%
+  % Detailed achievements:%
+  % text\mynobreakpar
+  \begin{itemize}%
+  \item Building scalable mission-critical secure web 2.0 systems:
+    \begin{itemize}%
+    \item Designed, coded and maintained version 1.0 \& 1.1 of internal
+      web-based system build tracking software using php, css, Ajax, and
+      64-bit Solaris WebStack SAMP platform inside a customized secure
+      Sunfire T2000 ZFS container.
+      \begin{itemize}
+      \item Sped world-wide turnover of new systems to customer by 20 percent.
+      \end{itemize}
+    \item Modularized object-oriented design of website using
+      HTML\_QuickForm\_Controller Front Controller pattern, using the
+      PEAR\_DB\_DataObject library for MySQL calls to four databases
+      (Sybase \& MySQL) and a Smarty template rendering system.
+      \begin{itemize}
+      \item Website was scalable with backend code and GUI design maintainable. Business data housed in other systems could be seen and acted upon securely in real-time.
+      \end{itemize}
+    \item Configured Parallels vitalization software to create a Solaris 11 web devel environment.
+      \begin{itemize}
+      \item Saved the customer money and time as no physical hardware needed to be deployed.
+      \end{itemize}
+    \item Architecting cross-platform data warehouse:
+      \begin{itemize}%
+      \item Architected and implemented with the Sun Security team, an end-to-end system perl audit tracking database cloud running on 5,000 Solaris hosts, which captured and recorded all user shell commands and usage trends.
+        \begin{itemize}
+        \item Sun was able to reduce access to root role in data centers, saving money from unnecessary outages and increasing security throughout their internal infrastructure.
+        \end{itemize}
+      \item Performed extensive 64-bit Mysql memory, database index and
+        performance tuning in a production environment using the InnoDB
+        engine, having over 10 million records, inside a secure Solaris
+        container on a 8 core UltraSparc-T1 CPU with 8 GB of ram.
+        \begin{itemize}
+        \item Saved Sun Security money as they were able to use an existing box instead of purchasing new hardware as I tuned the database to run with limited resources.
+        \end{itemize}
+      \item Led Sun software
+        developers to diagnose and fix major technical hurdles and
+        bugs, writing fixes in assembly language and using a custom
+        IPC harness to efficiently transfer Gibabytes of data between
+        IPC processes on all Sun clients. Compiled, packaged and
+        shipped three versions of perl to all Sun internal systems
+        with intelligent wrapper to dynamically load and unload
+        libraries depending on architecture.
+        \begin{itemize}
+        \item Prevented derailment of major project while producing
+          minimal system impact.
+        \end{itemize}
+      \item Integrated ORM framework for database access, using performance-optimized joins.
+        \begin{itemize}
+        \item Mangers were able to request custom system and user activity reports on the fly.
+        \end{itemize}
+      \end{itemize}
+    \item Multi-platform Trusted Host and Unix system administration automation:
+      \begin{itemize}%
+      \item Developed perl Net::SSH execution system for automation and data collection.
+        \begin{itemize}
+        \item Enabled secure reporting on server statistics (disk usage, security vulnerabilities).
+        \end{itemize}
+        % \item Scripted perl software to pull from a MS-Active Directory server and automatically generate LDAP entries, pushing Unix password daily to all STK NIS domains and non-NIS HP-UX, Linux and Solaris hosts. Maintained mail alias web tool, controlling Sendmail alias entries.
+        % %   \begin{itemize}%
+        % %   \item Access to systems was automated under SOX compliant feed from central HR database.
+        %   \end{itemize}
+      \end{itemize}
+    \end{itemize}
+  \end{itemize}
+}
+% \item Sun ad-hoc development:
+%   \begin{itemize}%
+%   \item Coded email reports to Unix users and managers, joining HR database to LDAP and NIS systems finding inactive and non-authorized system accounts and last access wtmpx times.
+%     \begin{itemize}%
+%     \item Reports were used by management to determine account status and decide access levels.
+%     \end{itemize}
+%     \begin{itemize}%
+%     \item Wrote scripts for complete statistics on VERITAS Netbackup 6.0 job report database including tape usage, success and failure rates summary report statistics.
+%     \end{itemize}
+%   \item Management used reports to rectify backup problems and decide on tape library needs.
+%   \end{itemize}
+% \item Built OpenSparc/i386 Sun hosts  to spec using Jumpstart with ZFS file systems with LiveUpgrade patching. Build NIS master and slave servers and DNS tables. Implemented Raid 5 using VERITAS Volume Manager and SVM. Supported desktops over VNC. Performed 24x7 on-call  system administration duties (break/fix, disaster recover, software/hardware currency and security management) on 2,400 Solaris, HP-UX and Linux production servers.
+%   \begin{itemize}%
+%   \item Sun had some of the highest uptime metrics in the industry.
+%   \end{itemize}
+% \item Was main point person for the selection, interviewing and on-boarding of six contractors.
+%   \begin{itemize}%
+%   \item Brought on reliable contractors for specific skill-related projects.
+%   \end{itemize}
+% \end{itemize}
+% \end{itemize} % }
+
+\cventry{2004--2005}{Newspaper Editor}{Old Lyons Recorder}{Lyons,
+  CO}{}{Editor, designer, editorial, primary news and feature writer
+  for Lyons Recorder web site and weekly newspaper, circ. 1,400.
+  Developed Perl 5 typesetting script to finesse third-party copy.
+  % \newline{}Description line 2
+}
+% \subsection{Miscellaneous}
+\cventry{2003--2004}{Staff Reporter}{Valley Courier/Valley
+  Publishing}{Alamosa, CO}{}{Staff reporting covering agriculture,
+  environmental issues and local and state politics.}
+\cventry{2002--2002}{Campaign manager}{Maynard for Colorado Attorney
+  General}{Denver, CO}{}{Managed 'Get Out the Vote,' volunteer
+  database and email campaigns.} \cventry{2001--2002}{Web developer}{Qwest Wireless}{Denver, CO}{}{Developed web-based ticketing system utilizing OO Perl, mod\_perl, and JavaScript. Maintained nis, nfs, VERITAS file system and Iplanet web server services on Solaris 8.}
+\cventry{1998--2001}{Software Engineer}{Experian (formerly 247
+  Media\/Exactis\/Infobeat)}{Denver, CO}{}{Developed OO web database
+  applications using Perl/cgi , Apache/mod\_perl, and JavaScript.}
+
+
+% \section{Languages}
+% \cvitemwithcomment{Language 1}{Skill level}{Comment}
+% \cvitemwithcomment{Language 2}{Skill level}{Comment}
+% \cvitemwithcomment{Language 3}{Skill level}{Comment}
+
+\section{Competencies}
+\subsection{Highly proficient with}
+\cvline{languages}{\textsc{php}, \textsc{perl}, \textsc{html}, \textsc{Drupal}, \textsc{bash}, \textsc{mysql}, \textsc{sieve}}
+\cvline{technologies}{\textsc{Git}, \textsc{behat}, \textsc{drupal mink extension},
+    \textsc{php CodeSniffer}, \textsc{xdebug}, \textsc{dovecot},
+    \textsc{postfix}, \textsc{apache}, \textsc{OSX}, \textsc{Linux}, \textsc{Solaris},
+  \textsc{MySQL}, \textsc{emacs}, \textsc{vim}, \textsc{Parallels}, \textsc{homebrew},
+  \textsc{Devon Think Pro}, \textsc{GPG}, \textsc{OpenSSH}, \textsc{screen}, \textsc{Jira}, \textsc{Dvorak layout}}
+\subsection{Have experience with}
+\cvline{languages}{\textsc{JavaScript}, \textsc{elisp}, \textsc{jQuery}, \textsc{css}, \textsc{Smarty}, \textsc{Wordpress}}
+\cvline{technologies}{\textsc{JSON}, \textsc{Ajax},
+  \textsc{Oracle}, ORM, \LaTeX{}, \textsc{Windows 8}, \textsc{zsh}, \textsc{tmux}, \textsc{Subversion}, \textsc{rsync},
+  \textsc{OpenLDAP}, \textsc{VirtualBox}, \textsc{Sendmail}, \textsc{X11}, \textsc{Selenium}}
+\subsection{Minor experience with}
+\cvline{languages}{\textsc{Java}, \textsc{C}, \textsc{C++}, \textsc{Posix}, \textsc{node.js}, \textsc{ruby}, \textsc{python}}
+\cvline{technologies}{\textsc{Wordpress}, \textsc{Symfony}, \textsc{MongoDB}, \textsc{Scrum} over \textsc{XP},
+  \textsc{Agile}}
+\subsection{Devops experience}
+\cvdoubleitem{Sun Microsystems software}{Jumpstart, Directory Sever,
+  Cluster, Solaris, Webstack, ZFS, SAM QFS,
+  Dtrace, dtlogin, vlan}{GNU/Linux}{Debian, Ubuntu \& Red Hat
+  Linux, LVM mirroring, KickStart, Citrix ICA}
+\cvdoubleitem{Networking}{TCP/IP , Bind, dns, autofs, ssh, vnc, xauth,
+  XDMC, Samba, UDP, NFS, NIS, SNMP, IPMP}{Security}{Tripwire, Nagios,
+  WireShark, tcpdump, nmap, arp-scan, sar.p}
+% \cvdoubleitem{Veritas enterprise}{Volume Manager Netbackup 6.0}{}{}
+% {Sun hardware}{UltraSparc, X86, Sun Ray, Sun SunFire Servers: V3800, V1280, V8x0, V4x0, V2x0, Netra T1, T2000, Sun Enterprise Servers: E6500, E4500, E3500, Ultra 2}
+% \cvdoubleitem{StroageTek}{BladeStore, Santrcity, ACLS, Automated Tape Library, Hitachi 9900 Storage Array, Bluearch Titan NAS}{San storage}{Brocade, McData fibre Switches}
+% \cvdoubleitem{Virtualization}{Virtualbox, VMware, Parallels}{Software process}{UML, Booch}
+% \cvdoubleitem{Open Source}{screen, ratpoison, gnupgp, cvs, mutt}
+% {Jumpstart, Directory Sever,
+% Cluster 3.0, 3.1, 3.2, Solaris Audit, Webstack 1.5, ZFS, SAM QFS,
+% Dtrace, dtlogin, vlan, SMF, RBAC}
+% wrote JQuery to add GA cross-domain tracking cookies
+% use Drupal devel, Codesniffer
+% experience in MAMP/LAMP
+% Agile Scrum retrospectives,
+% Drupal multisite and dslm
+% git submodules
+\section{Education}
+% \cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}  % arguments 3 to 6 can be left empty
+% \cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}
+\cvlistitem {Ba., Journalism/Computer Information Systems
+  \begin{itemize}%
+  \item Metropolitan State College of Denver, CO
+  \end{itemize}}
+
+% \section{Interests}
+% \cvitem{hobby 1}{Description}
+% \cvitem{hobby 2}{Description}
+% \cvitem{hobby 3}{Description}
+
+\section{Activities \& awards}
+\cvlistitem{Contributed patches to Drush 7, maintain emacs Drupal IDE plugin,
+  contributor to \href{http://github.com/dhaley}{emacs and github FOSS community}.}
+\cvlistitem{2004, 2005 Colorado Press Association 1st place Best
+  feature writing and Best column writing.}
+\cvlistitem{Free Software Foundation member, 2013, 2014 DrupalCon.}
+% \cvlistitem{Free Software Foundation member, Drupal and Linux Meetup.com regular attendee}
+% \cvlistitem{Volunteer dj (folk/freeform music programming), KGNU www.kgnu.org Boulder, CO, 2004-present.}
+
+
+% \renewcommand{\listitemsymbol}{-~}            % change the symbol for lists
+
+% \section{Extra 2}
+% \cvlistdoubleitem{Item 1}{Item 4}
+% \cvlistdoubleitem{Item 2}{Item 5\cite{book1}}
+% \cvlistdoubleitem{Item 3}{}
+
+% Publications from a BibTeX file without multibib\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% for BibTeX numerical labels
+% \nocite{*}
+% \bibliographystyle{plain}
+% \bibliography{publications}                   % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+% \section{Publications}
+% \nocitebook{book1,book2}
+% \bibliographystylebook{plain}
+% \bibliographybook{publications}              % 'publications' is the name of a BibTeX file
+% \nocitemisc{misc1,misc2,misc3}
+% \bibliographystylemisc{plain}
+% \bibliographymisc{publications}              % 'publications' is the name of a BibTeX file
+
+% \clearpage
+% % -----       letter       ---------------------------------------------------------
+% % recipient data
+% \recipient{Company Recruitment team}{Company, Inc.\\123 somestreet\\some city}
+% \date{January 01, 1984}
+% \opening{Dear Sir or Madam,}
+% \closing{Yours faithfully,}
+% \enclosure{curriculum vit\ae{}}
+% \makelettertitle
+
+% Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper neque sit amet lectus facilisis sed luctus nisl iaculis. Vivamus at neque arcu, sed tempor quam. Curabitur pharetra tincidunt tincidunt. Morbi volutpat feugiat mauris, quis tempor neque vehicula volutpat. Duis tristique justo vel massa fermentum accumsan. Mauris ante elit, feugiat vestibulum tempor eget, eleifend ac ipsum. Donec scelerisque lobortis ipsum eu vestibulum. Pellentesque vel massa at felis accumsan rhoncus.
+
+% Suspendisse commodo, massa eu congue tincidunt, elit mauris pellentesque orci, cursus tempor odio nisl euismod augue. Aliquam adipiscing nibh ut odio sodales et pulvinar tortor laoreet. Mauris a accumsan ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vulputate sem vehicula ipsum varius nec tempus dui dapibus. Phasellus et est urna, ut auctor erat. Sed tincidunt odio id odio aliquam mattis. Donec sapien nulla, feugiat eget adipiscing sit amet, lacinia ut dolor. Phasellus tincidunt, leo a fringilla consectetur, felis diam aliquam urna, vitae aliquet lectus orci nec velit. Vivamus dapibus varius blandit.
+
+% Duis sit amet magna ante, at sodales diam. Aenean consectetur porta risus et sagittis. Ut interdum, enim varius pellentesque tincidunt, magna libero sodales tortor, ut fermentum nunc metus a ante. Vivamus odio leo, tincidunt eu luctus ut, sollicitudin sit amet metus. Nunc sed orci lectus. Ut sodales magna sed velit volutpat sit amet pulvinar diam venenatis.
+
+% \makeletterclosing
+
+% \clearpage\end{CJK*}                         % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
+
+
+%% end of file `damon_haley_2014.tex'.
